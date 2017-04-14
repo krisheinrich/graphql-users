@@ -5,7 +5,7 @@ const schema = require('./schema/schema');
 // Initialize server instance
 const app = express();
 
-// Config GraphQL
+// Config GraphiQL
 app.use('/graphql', expressGraphQL({
   schema,
   graphiql: true
